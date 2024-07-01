@@ -32,6 +32,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 //this is the change
+
+//again changes
 app.MapControllers();
 
 app.Run();
